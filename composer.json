@@ -29,18 +29,21 @@
         }
     },
     "config": {
-        "sort-packages": true
+        "sort-packages": true,
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
     },
     "minimum-stability": "stable",
     "prefer-stable": true,
     "require-dev": {
-        "orchestra/testbench": "^6.23",
-        "pestphp/pest-plugin-faker": "^1.0",
-        "pestphp/pest-plugin-laravel": "^1.1",
-        "pestphp/pest-plugin-parallel": "^1.0",
-        "phpunit/phpunit": "^9.5.10",
-        "laravel/nova": "~3.0",
-        "laravel/framework": "^8.0"
+        "orchestra/testbench": "^8.5.3",
+        "pestphp/pest": "^2.0",
+        "pestphp/pest-plugin-faker": "^2.0",
+        "pestphp/pest-plugin-laravel": "^2.0",
+        "brianium/paratest": "^7.0",
+        "phpunit/phpunit": "^10.0",
+        "laravel/framework": "^10.0"
     },
     "repositories": [
         {
