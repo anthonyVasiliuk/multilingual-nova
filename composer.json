@@ -1,5 +1,5 @@
 {
-    "name": "digitalcloud/multilingual-nova",
+    "name": "anthonyvasiliuk/multilingual-nova",
     "description": "💪 Multilingual Nova (using default nova fields)",
     "keywords": [
         "laravel",
@@ -13,18 +13,18 @@
     },
     "autoload": {
         "psr-4": {
-            "Digitalcloud\\MultilingualNova\\": "src/"
+            "Anthonyvasiliuk\\MultilingualNova\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Digitalcloud\\MultilingualNova\\Tests\\": "tests"
+            "Anthonyvasiliuk\\MultilingualNova\\Tests\\": "tests"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Digitalcloud\\MultilingualNova\\FieldServiceProvider"
+                "Anthonyvasiliuk\\MultilingualNova\\FieldServiceProvider"
             ]
         }
     },
