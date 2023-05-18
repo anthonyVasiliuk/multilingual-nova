@@ -1,6 +1,6 @@
 <?php
 
-use Digitalcloud\MultilingualNova\Http\Middleware\Authorize;
+use Anthonyvasiliuk\MultilingualNova\Http\Middleware\Authorize;
 use function Pest\Laravel\getJson;
 use function Pest\Laravel\withoutMiddleware;
 use function PHPUnit\Framework\assertEquals;

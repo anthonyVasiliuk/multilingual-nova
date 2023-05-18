@@ -1,6 +1,6 @@
 <?php
 
-namespace Digitalcloud\MultilingualNova\Http\Controllers;
+namespace Anthonyvasiliuk\MultilingualNova\Http\Controllers;
 
 use Illuminate\Support\Facades\App;
 

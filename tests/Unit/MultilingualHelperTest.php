@@ -1,7 +1,7 @@
 <?php
 
-use Digitalcloud\MultilingualNova\Helper\MultilingualHelper;
-use Digitalcloud\MultilingualNova\Tests\TestClasses\Models\TestModel;
+use Anthonyvasiliuk\MultilingualNova\Helper\MultilingualHelper;
+use Anthonyvasiliuk\MultilingualNova\Tests\TestClasses\Models\TestModel;
 use Illuminate\Support\Facades\Config;
 use function PHPUnit\Framework\assertTrue;
 

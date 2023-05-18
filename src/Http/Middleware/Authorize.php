@@ -1,8 +1,8 @@
 <?php
 
-namespace Digitalcloud\MultilingualNova\Http\Middleware;
+namespace Anthonyvasiliuk\MultilingualNova\Http\Middleware;
 
-use Digitalcloud\MultilingualNova\NovaLanguageTool;
+use Anthonyvasiliuk\MultilingualNova\NovaLanguageTool;
 
 class Authorize
 {

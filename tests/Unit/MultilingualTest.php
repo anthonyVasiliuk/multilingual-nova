@@ -1,6 +1,6 @@
 <?php
 
-use Digitalcloud\MultilingualNova\Multilingual;
+use Anthonyvasiliuk\MultilingualNova\Multilingual;
 use Illuminate\Support\Facades\Config;
 use function Pest\Faker\faker;
 use function PHPUnit\Framework\assertFalse;

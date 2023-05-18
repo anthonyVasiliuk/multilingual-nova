@@ -1,8 +1,8 @@
 <?php
 
-namespace Digitalcloud\MultilingualNova;
+namespace Anthonyvasiliuk\MultilingualNova;
 
-use Digitalcloud\MultilingualNova\Helper\MultilingualHelper;
+use Anthonyvasiliuk\MultilingualNova\Helper\MultilingualHelper;
 use Illuminate\Support\Facades\App;
 use Laravel\Nova\Fields\Field;
 use Laravel\Nova\Http\Requests\NovaRequest;

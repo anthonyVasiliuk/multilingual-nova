@@ -1,6 +1,6 @@
 <?php
 
-namespace Digitalcloud\MultilingualNova\Helper;
+namespace Anthonyvasiliuk\MultilingualNova\Helper;
 
 class MultilingualHelper
 {

@@ -1,8 +1,8 @@
 <?php
 
-use Digitalcloud\MultilingualNova\Http\Middleware\Authorize;
-use Digitalcloud\MultilingualNova\Tests\TestClasses\Models\TestModel;
-use Digitalcloud\MultilingualNova\Tests\TestNova\TestModel as TestNova;
+use Anthonyvasiliuk\MultilingualNova\Http\Middleware\Authorize;
+use Anthonyvasiliuk\MultilingualNova\Tests\TestClasses\Models\TestModel;
+use Anthonyvasiliuk\MultilingualNova\Tests\TestNova\TestModel as TestNova;
 use Laravel\Nova\Nova;
 use function Pest\Faker\faker;
 use function Pest\Laravel\deleteJson;

@@ -1,6 +1,6 @@
 <?php
 
-namespace Digitalcloud\MultilingualNova\Tests\TestNova;
+namespace Anthonyvasiliuk\MultilingualNova\Tests\TestNova;
 
 use Illuminate\Http\Request;
 use Laravel\Nova\Resource;
@@ -12,7 +12,7 @@ class TestModel extends Resource
      *
      * @var string
      */
-    public static $model = \Digitalcloud\MultilingualNova\Tests\TestClasses\Models\TestModel::class;
+    public static $model = \Anthonyvasiliuk\MultilingualNova\Tests\TestClasses\Models\TestModel::class;
 
     /**
      * The single value that should be used to represent the resource when being displayed.

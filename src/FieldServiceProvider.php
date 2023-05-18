@@ -1,9 +1,9 @@
 <?php
 
-namespace Digitalcloud\MultilingualNova;
+namespace Anthonyvasiliuk\MultilingualNova;
 
-use Digitalcloud\MultilingualNova\Helper\MultilingualHelper;
-use Digitalcloud\MultilingualNova\Http\Middleware\Authorize;
+use Anthonyvasiliuk\MultilingualNova\Helper\MultilingualHelper;
+use Anthonyvasiliuk\MultilingualNova\Http\Middleware\Authorize;
 use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\Route;
 use Laravel\Nova\Nova;

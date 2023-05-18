@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Digitalcloud\MultilingualNova\Tests\TestClasses\Models;
+namespace Anthonyvasiliuk\MultilingualNova\Tests\TestClasses\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;

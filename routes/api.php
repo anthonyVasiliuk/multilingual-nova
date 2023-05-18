@@ -1,7 +1,7 @@
 <?php
 
-use Digitalcloud\MultilingualNova\Http\Controllers\LanguageCurrentController;
-use Digitalcloud\MultilingualNova\Http\Controllers\LanguageDeleteController;
+use Anthonyvasiliuk\MultilingualNova\Http\Controllers\LanguageCurrentController;
+use Anthonyvasiliuk\MultilingualNova\Http\Controllers\LanguageDeleteController;
 use Illuminate\Support\Facades\Route;
 
 /*

@@ -1,8 +1,8 @@
 <?php
 
-namespace Digitalcloud\MultilingualNova\Tests;
+namespace Anthonyvasiliuk\MultilingualNova\Tests;
 
-use Digitalcloud\MultilingualNova\FieldServiceProvider;
+use Anthonyvasiliuk\MultilingualNova\FieldServiceProvider;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Illuminate\Support\Facades\Schema;

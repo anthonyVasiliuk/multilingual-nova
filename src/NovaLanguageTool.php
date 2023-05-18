@@ -1,6 +1,6 @@
 <?php
 
-namespace Digitalcloud\MultilingualNova;
+namespace Anthonyvasiliuk\MultilingualNova;
 
 use Laravel\Nova\Tool;
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace Digitalcloud\MultilingualNova\Http\Controllers;
+namespace Anthonyvasiliuk\MultilingualNova\Http\Controllers;
 
 use Illuminate\Foundation\Bus\DispatchesJobs;
 use Illuminate\Routing\Controller as BaseController;

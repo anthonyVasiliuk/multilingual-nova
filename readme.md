@@ -1,7 +1,7 @@
 # Multilingual Nova (using default nova fields)
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/digitalcloud/multilingual-nova.svg?style=flat-square)](https://packagist.org/packages/digitalcloud/multilingual-nova)
-[![Total Downloads](https://img.shields.io/packagist/dt/digitalcloud/multilingual-nova.svg?style=flat-square)](https://packagist.org/packages/digitalcloud/multilingual-nova)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/Anthonyvasiliuk/multilingual-nova.svg?style=flat-square)](https://packagist.org/packages/Anthonyvasiliuk/multilingual-nova)
+[![Total Downloads](https://img.shields.io/packagist/dt/Anthonyvasiliuk/multilingual-nova.svg?style=flat-square)](https://packagist.org/packages/Anthonyvasiliuk/multilingual-nova)
 
 This package allows you to switch Nova language. Languages could be retrieved as array from config file or from database.
 
@@ -18,13 +18,13 @@ This package allows you to switch Nova language. Languages could be retrieved as
 You can install the package via composer:
 
 ```bash
-composer require digitalcloud/multilingual-nova
+composer require Anthonyvasiliuk/multilingual-nova
 ```
 
 You can publish the config file:
 
 ```shell
-php artisan vendor:publish --provider="Digitalcloud\MultilingualNova\FieldServiceProvider"
+php artisan vendor:publish --provider="Anthonyvasiliuk\MultilingualNova\FieldServiceProvider"
 ```
 
 This is the content of the file which will be published at `config/multilingual.php`
@@ -84,7 +84,7 @@ You can use it as a tool by registering it with Nova. This is typically done in 
 
 ```php
 
-use Digitalcloud\MultilingualNova\NovaLanguageTool;
+use Anthonyvasiliuk\MultilingualNova\NovaLanguageTool;
 // ....
 
 public function tools()
@@ -103,7 +103,7 @@ public function tools()
 You can add `Multilingual` field which will show languages to your resource.
 
 ```php
-    use Digitalcloud\MultilingualNova\Multilingual;
+    use Anthonyvasiliuk\MultilingualNova\Multilingual;
     
     // ....
     
@@ -152,7 +152,7 @@ When your language source is database, you need to configure the eloquent model 
 Alternatively, you can override the config locales using `setLocales(...)` function:
 
 ```php
-    use Digitalcloud\MultilingualNova\Multilingual;
+    use Anthonyvasiliuk\MultilingualNova\Multilingual;
     
     // ....
     
