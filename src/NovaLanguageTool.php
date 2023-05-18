@@ -2,6 +2,7 @@
 
 namespace Anthonyvasiliuk\MultilingualNova;
 
+use Illuminate\Http\Request;
 use Laravel\Nova\Tool;
 
 class NovaLanguageTool extends Tool
@@ -26,4 +27,9 @@ class NovaLanguageTool extends Tool
         return view('nova-language-tool::navigation');
     }
 
+
+    public function menu(Request $request)
+    {
+
+    }
 }
